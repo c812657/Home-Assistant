@@ -20,7 +20,7 @@ Hardware
 - 2TB USB HDD
 
 HA componenten:
-- Sonoff Basic module (Tasmota) 
+- Sonoff Basic module (Tasmota) (https://github.com/arendst/Sonoff-Tasmota)
 - LG TV (WebOS 2)
 - YeelLight (RGB Led Bulb)
 - KaKu schakelaars (oud en nieuw)
