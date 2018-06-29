@@ -27,8 +27,8 @@ HA componenten:
 
 Software
 OS:
-- Ubuntu 18.04 LTS
-Standaard installatie met bootable USB stick
+- Ubuntu 18.04 LTS. 
+Standaard installatie met bootable USB stick (https://rufus.akeo.ie/)
 
 Docker-compose
 Installatie:
