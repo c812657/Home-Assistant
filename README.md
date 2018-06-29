@@ -5,16 +5,16 @@ Ik hoop nu een solide en onderhoudsarme omgeving op te zetten. Aan de hand van d
 Uitgangspunten:
 - Home Assistant
 - Docker-compose
-- Security
-- Backup / restore scripts
+- Security (ssh, certificaten etc.)
+- Backup / restore (lokaal en in de cloud)
 - Integratie met Alexa Echo Dot
-- Stabiele omgeving
-- Documenteren / archiveren omgeving
+- Stabiele omgeving (geen SD cards !!)
+- Documenteren / archiveren omgeving met GitHub
 
 Hardware
 - Intel NUC DN2820FYKH
 - 4 Gb RAM
-- 120 GB SSD
+- 128 GB SSD
 - RFX Gateway (USB)
 - USB kabel voor aansluiting op NUTS voorziening
 - 2TB USB HDD
@@ -34,7 +34,7 @@ Standaard installatie met bootable USB stick (https://rufus.akeo.ie/)
 Docker-compose
 Installatie:
 
-De /opt directory gebruik ik voor de applicatie en data. Alles staat dan bij elkaar. Gemakkelijk om te backuppen of te kunnen restoren.
+De /opt directory gebruik ik voor de applicaties en data. Alles staat dan bij elkaar. Gemakkelijk om te backuppen of te kunnen restoren.
 
 Applicaties:
 - Home Assistent
@@ -51,3 +51,5 @@ Applicaties:
 - Dockermon
 - MariaDB
 
+De informatie heb ik van de volgende sites gehaald:
+- 
