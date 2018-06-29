@@ -12,7 +12,7 @@ Uitgangspunten:
 - Documenteren / archiveren omgeving
 
 Hardware
-- NUC 
+- Intel NUC DN2820FYKH
 - 4 Gb RAM
 - 120 GB SSD
 - RFX Gateway (USB)
@@ -21,13 +21,13 @@ Hardware
 
 HA componenten:
 - Sonoff Basic module (Tasmota) 
-- LG TV (WebOs 2)
-- YeelLight
+- LG TV (WebOS 2)
+- YeelLight (RGB Led Bulb)
 - KaKu schakelaars (oud en nieuw)
 
 Software
 OS:
-- Ubuntu 18.04 LTS. 
+- Ubuntu 18.04 LTS. (https://www.ubuntu-nl.org/download/)
 Standaard installatie met bootable USB stick (https://rufus.akeo.ie/)
 
 Docker-compose
