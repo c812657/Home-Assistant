@@ -12,7 +12,7 @@ Uitgangspunten:
 - Documenteren / archiveren omgeving met GitHub
 
 Hardware
-- Intel NUC DN2820FYKH
+- Intel NUC DN2820FYKH (https://www.intel.com/content/www/us/en/support/articles/000016234/mini-pcs.html)
 - 4 Gb RAM
 - 128 GB SSD
 - RFX Gateway USB (http://www.rflink.nl/)
