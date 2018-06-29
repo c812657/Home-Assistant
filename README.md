@@ -28,10 +28,13 @@ HA componenten:
 Software
 OS:
 - Ubuntu 18.04 LTS. (https://www.ubuntu-nl.org/download/)
+
 Standaard installatie met bootable USB stick (https://rufus.akeo.ie/)
 
 Docker-compose
 Installatie:
+
+De /opt directory gebruik ik voor de applicatie en data. Alles staat dan bij elkaar. Gemakkelijk om te backuppen of te kunnen restoren.
 
 Applicaties:
 - Home Assistent
