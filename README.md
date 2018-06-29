@@ -15,7 +15,7 @@ Hardware
 - Intel NUC DN2820FYKH
 - 4 Gb RAM
 - 128 GB SSD
-- RFX Gateway (USB)
+- RFX Gateway USB (http://www.rflink.nl/)
 - USB kabel voor aansluiting op NUTS voorziening
 - 2TB USB HDD
 
