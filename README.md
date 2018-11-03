@@ -30,8 +30,8 @@ OS:
 - Ubuntu 18.04 LTS. (https://www.ubuntu-nl.org/download/)
 
 Netwerk
-Om de WiFi adapter actief te maken in Ubuntu 18.04 pas het .yaml bestand aan in /etc/netplan.
-Het volgende toevoegen:
+- Om de WiFi adapter actief te maken in Ubuntu 18.04 pas het .yaml bestand aan in /etc/netplan.
+- Het volgende toevoegen:
 version: 2
   renderer: networkd
   wifis:
