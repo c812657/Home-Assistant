@@ -29,6 +29,21 @@ Software
 OS:
 - Ubuntu 18.04 LTS. (https://www.ubuntu-nl.org/download/)
 
+Netwerk
+Om de WiFi adapter actief te maken in Ubuntu 18.04 pas het .yaml bestand aan in /etc/netplan.
+Het volgende toevoegen:
+version: 2
+  renderer: networkd
+  wifis:
+    wlp2s0:
+      dhcp4: true
+      access-points:
+        <Wifi naam>:
+          password: <wachtwoord>
+  
+  Vervolgens de volgende package toevoegen d.m.v. sudo apt-get install wpasupplicant
+  Reboot
+
 Standaard installatie met bootable USB stick (https://rufus.akeo.ie/)
 
 Docker-compose
