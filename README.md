@@ -42,6 +42,12 @@ version: 2
           password: <wachtwoord>
   
   Vervolgens de volgende package toevoegen d.m.v. sudo apt-get install wpasupplicant
+  
+  Deze twee commandos uitvoeren:
+  - systemctl disable systemd-networkd-wait-online.service
+  - systemctl mask systemd-networkd-wait-online.service
+  
+  
   Reboot
 
 Standaard installatie met bootable USB stick (https://rufus.akeo.ie/)
